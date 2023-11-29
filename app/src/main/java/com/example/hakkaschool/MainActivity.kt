@@ -9,15 +9,11 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-<<<<<<< HEAD
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-=======
 import androidx.compose.ui.tooling.preview.Preview
->>>>>>> 4568139b64e591b2905ec60c81375ca2f34aa1a5
 import com.example.hakkaschool.ui.theme.HakkaSchoolTheme
 
 class MainActivity : ComponentActivity() {
@@ -25,7 +21,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             HakkaSchoolTheme {
-<<<<<<< HEAD
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = Color.LightGray     // 背景顏色先設定為淺灰色（想換顏色可以直接更改）
@@ -55,15 +50,13 @@ class MainActivity : ComponentActivity() {
 
                     Greeting("Android")
                 }*/
-=======
                 // A surface container using the 'background' color from the theme
-                Surface(
+                /*Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Greeting("Android")
-                }
->>>>>>> 4568139b64e591b2905ec60c81375ca2f34aa1a5
+                }*/
             }
         }
     }
